@@ -18,7 +18,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #ffffff;
             color: #333;
         }
         .container {
@@ -49,9 +49,11 @@
         .hero-section {
             background: url('https://www.khuranaenterprises.in/banner.jpg') no-repeat center center/cover;
             text-align: center;
-            padding: 100px 20px;
+            padding: 120px 20px;
             color: white;
-            font-size: 24px;
+            font-size: 28px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
         }
         .section {
             padding: 50px 20px;
@@ -60,6 +62,22 @@
             margin: 20px 0;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #005792;
+        }
+        .services-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services-list li {
+            background: #005792;
+            color: white;
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            font-weight: bold;
         }
         footer {
             background: #005792;
@@ -101,7 +119,7 @@
     <section id="services" class="section">
         <div class="container">
             <h2>Our Services</h2>
-            <ul>
+            <ul class="services-list">
                 <li>Business Consulting</li>
                 <li>Product Sourcing and Distribution</li>
                 <li>Facility Management</li>
